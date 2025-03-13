@@ -7,11 +7,11 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 
 const Project = () => {
   return (
-    <div className="px-10 md:px20">
+    <div className="px-10 md:px-20 lg:px-28">
       <h2 className="text-center  text-3xl md:text-4xl font-bold mt-8 mb-10 text-black">
         Existing Project
       </h2>
-      <div className="flex flex-col lg:flex-row gap-7 border-3 mb-14 border-gray-400 rounded-xl shadow-2xl p-5">
+      <div className="flex bg-white flex-col lg:flex-row gap-7 mb-14  rounded-xl shadow-xl p-5">
         {/* img */}
         <div className="">
           <img src={pro1} alt="" className="rounded-xl" />
@@ -27,7 +27,7 @@ const Project = () => {
             management system. It allows businesses to assign tasks, track work
             hours, and manage salaries seamlessly.
           </p>
-          <div className=" gap-2 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center justify-center">
+          <div className="grid grid-cols-2 md:flex  gap-2 ">
             <div className="badge badge-lg bg-[#ECF0F3] border-2 border-black text-black">
               React
             </div>
@@ -58,7 +58,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-7 border-3 mb-14 border-gray-400 rounded-xl shadow-2xl p-5">
+      <div className="flex flex-col lg:flex-row gap-7 bg-white mb-14  rounded-xl shadow-xl p-5">
         <div className=" lg:hidden block">
           <img src={pro2} alt="" className="rounded-xl" />
         </div>
@@ -72,7 +72,7 @@ const Project = () => {
             courses in various languages to their favorites list. The platform
             offers a simple and engaging language learning experience.
           </p>
-          <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-center items-center justify-center gap-2 ">
+          <div className=" grid grid-cols-2 md:flex text-center gap-2 ">
             <div className="badge badge-lg bg-[#ECF0F3] border-2 border-black text-black">
               React
             </div>
@@ -108,7 +108,7 @@ const Project = () => {
           <img src={pro2} alt="" className="rounded-xl" />
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-7 border-3 mb-14 border-gray-400 rounded-xl shadow-2xl p-5">
+      <div className="flex flex-col lg:flex-row gap-7 bg-white mb-14  rounded-xl shadow-xl p-5">
         {/* img */}
         <div className="">
           <img src={pro3} alt="" className="rounded-xl" />
@@ -125,7 +125,7 @@ const Project = () => {
             counseling, offering free and paid courses with counselor details,
             ratings, and course durations.
           </p>
-          <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 ">
+          <div className=" grid grid-cols-2 md:flex gap-2 ">
             <div className="badge badge-lg bg-[#ECF0F3] border-2 border-black text-black">
               React
             </div>
