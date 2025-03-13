@@ -6,6 +6,7 @@ import Heading from "../../components/heading/Heading";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Skills from "../../components/skills/Skills";
+import Project from "../../components/project/Project";
 const Home = () => {
   AOS.init();
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       </div>
       <AboutMe></AboutMe>
       <Skills></Skills>
+      <Project></Project>
     </div>
   );
 };
