@@ -11,7 +11,7 @@ import ContactCard from "../../components/contact/ContactCard";
 const Home = () => {
   AOS.init();
   return (
-    <div>
+    <div id="home">
       <Banner></Banner>
       <div
         data-aos="fade-up"

@@ -27,7 +27,7 @@ import { DiIllustrator, DiPhotoshop } from "react-icons/di";
 
 const Skills = () => {
   return (
-    <section className="px-4 sm:px-8 md:px-16 lg:px-28 pb-24">
+    <section id="skills" className="px-4 sm:px-8 md:px-16 lg:px-28 pb-24">
       <h2 className="text-center text-3xl md:text-4xl font-bold mt-16 text-black">
         I Work With...
       </h2>

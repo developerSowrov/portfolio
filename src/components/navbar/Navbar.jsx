@@ -31,12 +31,24 @@ const Navbar = () => {
                 <a className="font-mono text-base hover:text-[#ff001e]">Home</a>
               </li>
               <li>
+                <a className="font-mono text-base hover:text-[#ff001e]">Me</a>
+              </li>
+
+              <li>
+                <a className="font-mono text-base hover:text-[#ff001e]">
+                  Skills
+                </a>
+              </li>
+              <li>
                 <a className="font-mono text-base hover:text-[#ff001e]">
                   Projects
                 </a>
               </li>
+
               <li>
-                <a className="font-mono text-base hover:text-[#ff001e]">Me</a>
+                <a className="font-mono text-base hover:text-[#ff001e]">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
@@ -55,15 +67,46 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="font-mono text-base hover:text-[#ff001e]">Home</a>
-            </li>
-            <li>
-              <a className="font-mono text-base hover:text-[#ff001e]">
-                Projects
+              <a
+                href="#home"
+                className="font-mono text-base hover:text-[#ff001e]"
+              >
+                Home
               </a>
             </li>
             <li>
-              <a className="font-mono text-base hover:text-[#ff001e]">Me</a>
+              <a
+                href="#abouteME"
+                className="font-mono text-base hover:text-[#ff001e]"
+              >
+                Me
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#skills"
+                className="font-mono text-base hover:text-[#ff001e]"
+              >
+                Skills
+              </a>
+            </li>
+            <li>
+              <a
+                href="#projects"
+                className="font-mono text-base hover:text-[#ff001e]"
+              >
+                Projects
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#contact"
+                className="font-mono text-base hover:text-[#ff001e]"
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </div>

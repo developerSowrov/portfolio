@@ -7,7 +7,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 
 const Project = () => {
   return (
-    <div className="px-10 md:px-20 lg:px-28">
+    <div id="projects" className="px-10 md:px-20 lg:px-28">
       <h2 className="text-center  text-3xl md:text-4xl font-bold mt-8 mb-10 text-black">
         Existing Project
       </h2>
@@ -141,7 +141,7 @@ const Project = () => {
           </div>
           <div className="text-black flex gap-3 text-base mt-4">
             <a
-              href="https://github.com/developerSowrov/Work_Track_Pro."
+              href="https://github.com/developerSowrov/pathfinderpro"
               className="flex gap-2 items-center justify-center text-black font-semibold font-mono"
             >
               <FaGithub className="text-3xl text-black"></FaGithub>Girhub Repo.

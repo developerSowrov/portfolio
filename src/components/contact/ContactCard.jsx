@@ -4,7 +4,10 @@ import moduleName from "../../assets/34745607_6oh7_wri5_220829.jpg";
 
 const ContactCard = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-6 p-6 lg:px-28  min-h-screen items-center justify-center">
+    <div
+      id="contact"
+      className="flex flex-col lg:flex-row gap-6 p-6 lg:px-28  min-h-screen items-center justify-center"
+    >
       {/* Profile Card */}
       <div className="bg-white flex flex-col md:flex-row items-center justify-center lg:flex-col shadow-lg rounded-xl p-6 w-full lg:w-1/3">
         <img

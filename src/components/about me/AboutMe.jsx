@@ -7,7 +7,10 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 const AboutMe = () => {
   AOS.init();
   return (
-    <section className="flex flex-col  mt-10 md:flex-row items-center justify-center min-h-screen px-6 lg:px-28 md:px-20">
+    <section
+      id="abouteME"
+      className="flex flex-col  mt-10 md:flex-row items-center justify-center min-h-screen px-6 lg:px-28 md:px-20"
+    >
       {/* pic */}
       <div
         className="relative  w-72 h-72 lg:w-[500px] md:w-[420px] lg:h-96 md:h-64"
