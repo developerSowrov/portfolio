@@ -1,15 +1,16 @@
 import React from "react";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import moduleName from "../../assets/34745607_6oh7_wri5_220829.jpg";
 
 const ContactCard = () => {
   return (
     <div className="flex flex-col lg:flex-row gap-6 p-6 lg:px-28  min-h-screen items-center justify-center">
       {/* Profile Card */}
-      <div className="bg-white md:flex lg:flex-col shadow-lg rounded-xl p-6 w-full lg:w-1/3">
+      <div className="bg-white flex flex-col md:flex-row items-center justify-center lg:flex-col shadow-lg rounded-xl p-6 w-full lg:w-1/3">
         <img
-          src="/your-image.jpg"
+          src={moduleName}
           alt="Profile"
-          className="w-full h-40 object-cover rounded-lg"
+          className="w-60 md:h-52 h-40 lg:h-40 object-cover rounded-lg"
         />
         <div>
           <h2 className="text-xl font-bold mt-4 text-[#ff0051]">
