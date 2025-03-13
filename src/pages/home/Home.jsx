@@ -31,7 +31,7 @@ const Home = () => {
       <Project></Project>
       <div
         data-aos="fade-up"
-        className="text-gray-600 w-4/6  text-center mx-auto mt-40 md:text-lg text-base"
+        className="text-gray-600 w-4/6  text-center mx-auto md:mt-40 mt-20 md:text-lg text-base"
       >
         Let’s Meet 🚀
       </div>
